@@ -12,16 +12,6 @@ from scipy.signal import savgol_filter
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 import os
 
-# distances between tracers
-def get_distances(s,line):
-    x=s.xmark[line]
-    y=s.ymark[line]
-    return sqrt((x[:-1]-x[1:])**2+(y[:-1]-y[1:])**2)
-
-# Define the maximum separation allowed when plotting lines
-maxsep=6
-
-
 SMALL_SIZE = 12
 MEDIUM_SIZE = 16
 BIGGER_SIZE = 18

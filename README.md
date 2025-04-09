@@ -30,4 +30,4 @@ This dataset contains model data and supporting files for analyzing peak ring ma
    - **`MatComp_TrP`**: A Python script for comparing two models to analyze the formation of peak ring and the peak shock pressure they experienced.
 
 ## Additional Notes
-- The **input files** required for analysis are located within the dataset folders.
+- The **input files** required for running models are located within the dataset folders.
